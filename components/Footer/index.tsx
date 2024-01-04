@@ -1,12 +1,8 @@
 // Footer.tsx
 import React, { FunctionComponent } from 'react';
 import Button from '../Button';
+import { FooterProps } from '@/types/interfaces';
 
-interface FooterProps {
-  toggleFeedCallback: () => void;
-  killFeedCallback: () => void;
-  isFeedKilled: boolean;
-}
 
 const Footer: FunctionComponent<FooterProps> = ({ toggleFeedCallback, killFeedCallback, isFeedKilled }) => {
   return (

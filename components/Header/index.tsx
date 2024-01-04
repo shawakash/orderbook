@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import GroupingSelectBox from "../GroupingSelectBox";
 import styled from "styled-components";
+import { HeaderProps } from '@/types/interfaces';
 
 const Container = styled.div`
   display: flex;
@@ -21,10 +22,6 @@ const Container = styled.div`
   }
 `;
 
-
-interface HeaderProps {
-  options: number[];
-}
 
 const Header: FunctionComponent<HeaderProps> = ({options}) => {
   return (

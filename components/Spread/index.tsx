@@ -1,3 +1,4 @@
+import { SpreadProps } from '@/types/interfaces';
 import { formatNumber } from '@/utils/helpers';
 import React, { FunctionComponent } from 'react';
 import styled from "styled-components";
@@ -15,10 +16,6 @@ const Container = styled.div`
   }
 `;
 
-interface SpreadProps {
-  bids: number[][];
-  asks: number[][];
-}
 
 const Spread: FunctionComponent<SpreadProps> = ({ bids, asks }) => {
   const getHighestBid = (bids: number[][]): number => {

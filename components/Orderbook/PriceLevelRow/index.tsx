@@ -1,15 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import { Container } from "./styles";
-import { MOBILE_WIDTH } from '@/app/page';
+import { MOBILE_WIDTH } from '@/utils/constants';
+import { PriceLevelRowProps } from '@/types/interfaces';
 
-
-interface PriceLevelRowProps {
-    total: string;
-    size: string;
-    price: string;
-    reversedFieldsOrder: boolean;
-    windowWidth: number;
-}
 
 const PriceLevelRow: FunctionComponent<PriceLevelRowProps> = ({
     total,

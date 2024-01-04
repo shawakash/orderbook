@@ -1,10 +1,5 @@
+import { ButtonProps } from '@/types/interfaces';
 import React, { FunctionComponent } from 'react';
-
-interface ButtonProps {
-  title: string;
-  backgroundColor: string;
-  callback: () => void;
-}
 
 const Button: FunctionComponent<ButtonProps> = ({ title, backgroundColor = 'indigo-700', callback }) => {
   return (

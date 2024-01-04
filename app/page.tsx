@@ -1,9 +1,8 @@
 import DepthVisualizer from '@/components/DepthVisualizer';
-import { OrderType } from '@/types/Order';
+import { OrderType } from '@/types/enums';
 import { useState } from 'react';
 import {RecoilRoot} from "recoil";
 
-export const MOBILE_WIDTH = 120;
 
 export default function Home() {
   const [orderType, setOrderType] = useState<OrderType>(OrderType.BIDS);

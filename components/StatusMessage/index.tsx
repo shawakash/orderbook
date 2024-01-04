@@ -1,3 +1,4 @@
+import { StatusMessageProps } from '@/types/interfaces';
 import React, { FunctionComponent } from 'react';
 import styled from "styled-components";
 
@@ -7,11 +8,6 @@ const Container = styled.div`
   width: 100%;
   text-align: center;
 `;
-
-interface StatusMessageProps {
-  selectedMarket: string;
-  isFeedKilled: boolean;
-}
 
 const StatusMessage: FunctionComponent<StatusMessageProps> = ({selectedMarket = '', isFeedKilled}) => {
   return (

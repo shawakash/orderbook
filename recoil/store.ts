@@ -1,4 +1,4 @@
-import { OrderType } from "@/types/Order";
+import { OrderType } from "@/types/enums";
 import { atom } from "recoil";
 
 export const orderAtom = atom({

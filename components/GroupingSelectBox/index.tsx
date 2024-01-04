@@ -1,10 +1,7 @@
 // GroupingSelectBox.tsx
 import React, { ChangeEvent, FunctionComponent } from 'react';
 import { Container } from './Container';
-
-interface GroupingSelectBoxProps {
-  options: number[];
-}
+import { GroupingSelectBoxProps } from '@/types/interfaces';
 
 const GroupingSelectBox: FunctionComponent<GroupingSelectBoxProps> = ({ options }) => {
 
