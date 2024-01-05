@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import GroupingSelectBox from "../GroupingSelectBox";
+import GroupingSelectBox from "./groupingSelector";
 import styled from "styled-components";
 import { HeaderProps } from '@/types/interfaces';
 

@@ -1,3 +1,4 @@
+"use client"
 import { OrderType } from '@/types/enums';
 import { DepthVisualizerProps } from '@/types/interfaces';
 import { MOBILE_WIDTH } from '@/utils/constants';
