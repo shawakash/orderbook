@@ -1,6 +1,6 @@
 // Footer.tsx
 import React, { FunctionComponent } from 'react';
-import Button from './button';
+import Button from '../Button/button';
 import { FooterProps } from '@/types/interfaces';
 
 

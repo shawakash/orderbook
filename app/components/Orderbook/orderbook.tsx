@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useEffect } from 'react';
 import useWebSocket from "react-use-websocket";
-import { Container } from "./Orderbook/styles";
+import { Container } from "./styles";
 import { OrderBookProps } from '@/types/interfaces';
 
 let currentBids: number[][] = []
