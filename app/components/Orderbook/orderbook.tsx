@@ -7,6 +7,7 @@ let currentBids: number[][] = []
 let currentAsks: number[][] = []
 
 const OrderBook: FunctionComponent<OrderBookProps> = ({ windowWidth, productId, isFeedKilled }) => {
+  
   return (
     <Container>
     </Container>

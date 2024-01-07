@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-redux": "^9.0.4",
     "react-use-websocket": "^4.5.0",
     "recoil": "^0.7.7",
     "styled-components": "^6.1.6"

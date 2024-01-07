@@ -13,7 +13,7 @@ export enum ProductIDS {
     ETHUSD = 'PI_ETHUSD'
 };
 
-export enum ProductsMap {
-    PI_XBTUSD = "PI_ETHUSD",
-    PI_ETHUSD = "PI_XBTUSD",
-};
+// export enum ProductsMap {
+//     PI_XBTUSD = "PI_ETHUSD",
+//     PI_ETHUSD = "PI_XBTUSD",
+// };

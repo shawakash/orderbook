@@ -1,7 +1,11 @@
-import { OrderType } from "@/types/enums";
-import { atom } from "recoil";
+import { configureStore } from '@reduxjs/toolkit';
+import orderbookReducer from './orderbookSlice';
 
-export const orderAtom = atom({
-    key: "orderAtom",
-    default: OrderType.BIDS
+export const store = configureStore({
+  reducer: {
+    orderbook: orderbookReducer,
+  },
 });
+
+export type AppDispatch = typeof store.dispatch;
+export type RootState = ReturnType<typeof store.getState>;
