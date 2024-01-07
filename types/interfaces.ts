@@ -1,3 +1,4 @@
+import { SendJsonMessage, WebSocketLike } from "react-use-websocket/dist/lib/types";
 import { OrderType } from "./enums";
 
 export interface PriceLevelRowProps {
