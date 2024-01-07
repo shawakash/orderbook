@@ -14,7 +14,7 @@ const Child: React.FC<{}> = ({ }) => {
     const [orderType, setOrderType] = useState<OrderType>(OrderType.BIDS);
     const [depth, setDetph] = useState<number>(0);
     const [windowWidth, setWindowWidth] = useState<number>(0);
-    const [productId, setProductId] = useState<ProductIDS>(ProductIDS.XBTUSD);
+    const [productId, setProductId] = useState<ProductIDS>(ProductIDS.ETHUSD);
     const [isFeedKilled, setIsFeedKilled] = useState<boolean>(false);
     const [isPageVisible, setIsPageVisible] = useState<boolean>(true);
     const dispatch = useAppDispatch();

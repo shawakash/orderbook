@@ -1,6 +1,6 @@
 export enum DepthVisualizerColors {
-    BIDS = '#00ff00', // Green
-    ASKS = '#ff0000', // Red
+    BIDS = '#113534', // Green
+    ASKS = '#3d1e28', // Red
 };
 
 export enum OrderType {
